@@ -12,10 +12,40 @@ section {
 .header {
   background-color: black;
   height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+.header-text {
+  margin-left: 40px;
 }
 
 footer {
   height: 500px;
   background-color: green;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 30px;
+  width: 500px;
+  
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
 }
 
