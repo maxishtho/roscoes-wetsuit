@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+section {
+  height: 500px;
+  background-color: goldenrod;
+  border: solid black 1px;
+}
+
+.header {
+  background-color: black;
+  height: 100vh;
+}
+
+footer {
+  height: 500px;
+  background-color: green;
+}
+
