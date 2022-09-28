@@ -1,24 +1,21 @@
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: 'Inconsolata', monospace;
 }
 
 section {
-  height: 500px;
   background-color: goldenrod;
   border: solid black 1px;
 }
 
-.header {
-  background-color: black;
-  height: 100vh;
-  color: white;
-  font-size: 40px;
-}
-
 h1 {
   font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 p {
@@ -35,15 +32,18 @@ p {
   align-items: center;
 }
 
+.header {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
 .header-text {
   margin-left: 80px;
   margin-bottom: 200px;
 }
 
-footer {
-  height: 500px;
-  background-color: green;
-}
 
 nav {
   display: flex;
@@ -86,10 +86,6 @@ li {
   color: black;
 }
 
-.social {
-  padding-bottom: 200px;
-}
-
 .logo {
   height: 70px;
   margin: 30px;
@@ -99,6 +95,77 @@ li {
   background-color: white;
 }
 
+.social {
+  padding-bottom: 200px;
+}
+
+
 .icons {
   margin: 20px;
+}
+
+/* ----- ABOUT ME ----- */
+
+.section-a {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+
+.info {
+  
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 500px;
+  background-color: green;
 }
