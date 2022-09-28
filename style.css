@@ -1,6 +1,7 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
 }
 
 section {
@@ -20,8 +21,10 @@ h1 {
   font-size: 90px;
 }
 
+
+
 .header-text {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 footer {
@@ -49,3 +52,10 @@ li {
   text-decoration: none;
 }
 
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: coral;
+  text-align: center;
+}
