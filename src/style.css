@@ -44,11 +44,9 @@ p {
   margin-bottom: 200px;
 }
 
-
 nav {
   display: flex;
   justify-content: space-between;
-
 }
 
 ul {
@@ -98,7 +96,6 @@ li {
 .social {
   padding-bottom: 200px;
 }
-
 
 .icons {
   margin: 20px;
