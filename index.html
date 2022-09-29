@@ -8,17 +8,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/83a6b8fea1.js" crossorigin="anonymous"></script>
   <title>portolio</title>
 </head>
 <body>
   <section class="header">
     <nav>
       <img class="logo" src="./src/images/powerwh.png" alt="power button">
-      <ul>
-        <li>About me</li>
-        <li>Projects</li>
-        <li>Contacts</li>
+      <ul id="nav-list">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
       </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
     </nav>
     <div class="header-area">
       <div class="header-text">
@@ -40,9 +44,9 @@
     </div>
   </section>
 
-
 <!------------ ABOUT ME ------------>
-  <section class="section-a">
+
+  <section class="section-a" id="about-me">
     <div class="info">
       <h2>About me</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo enim necessitatibus odio voluptate et reprehenderit beatae veniam ratione.</p>
@@ -52,48 +56,50 @@
     </div>
   </section>
 
-
 <!------------ PROJECTS ------------>
-  <section class="section-b">
+
+  <section class="section-b" id="projects">
     <h2>Projects</h2>
     <div class="project-container">
       <div class="project-card">
-        <img class="project-image" src="" alt="project one image">
+        <img class="project-image" src="./src/images/Placeholder_view_vector.svg.png" alt="project one image">
         <h3>Project One</h3>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione sint dignissimos? Quos, voluptates!</p>
         <hr>
-        <p class="subtext">View here</p>
+        <p class="subtext"><a class="project-link" href="">View here</a></p>
       </div>
       <div class="project-card">
-        <img class="project-image" src="" alt="project two image">
+        <img class="project-image" src="./src/images/Placeholder_view_vector.svg.png" alt="project two image">
         <h3>Project Two</h3>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione sint dignissimos? Quos, voluptates!</p>
         <hr>
-        <p class="subtext">View here</p>
+        <p class="subtext"><a class="project-link" href="">View here</a></p>
       </div>
       <div class="project-card">
-        <img class="project-image" src="" alt="project three image">
+        <img class="project-image" src="./src/images/Placeholder_view_vector.svg.png" alt="project three image">
         <h3>Project Three</h3>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione sint dignissimos? Quos, voluptates!</p>
         <hr>
-        <p class="subtext">View here</p>
+        <p class="subtext"><a class="project-link" href="">View here</a></p>
       </div>
       <div class="project-card">
-        <img class="project-image" src="" alt="project four image">
+        <img class="project-image" src="./src/images/Placeholder_view_vector.svg.png" alt="project four image">
         <h3>Project Four</h3>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione sint dignissimos? Quos, voluptates!</p>
         <hr>
-        <p class="subtext">View here</p>
+        <p class="subtext"><a class="project-link" href="">View here</a></p>
       </div>
     </div>
   </section>
 
-
 <!------------ FOOTER  ------------>
-  <footer>
 
+  <footer id="contact-me">
+    <h2>Contact me</h2>
+    <p>ahmilleeyun@gmail.com</p>
   </footer>
 
+  <script src="./src/app.js"></script>
 
 </body>
 </html>
