@@ -4,11 +4,6 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-section {
-  background-color: goldenrod;
-  border: solid black 1px;
-}
-
 h1 {
   font-size: 90px;
   margin: 0;
@@ -112,6 +107,7 @@ li {
 .headshot {
   border-radius: 50%;
   width: 300px;
+  margin-left: 80px;
 }
 
 .headshot-container {
@@ -125,6 +121,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 80px;
 }
 
 .project-container {
@@ -133,11 +130,11 @@ li {
 }
 
 .project-card {
-  width: 200px;
-  height: 500px;
-  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 20px rgb(33, 33, 33);
+  margin: 10px;
 }
-
 
 
 
