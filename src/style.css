@@ -66,7 +66,7 @@ li {
   text-decoration: none;
 }
 
-.button {
+/* .button {
   width: 200px;
   height: 55px;
   border-radius: 25px;
@@ -85,7 +85,7 @@ li {
 .button:active {
   background-color: darkgray;
   color: black;
-}
+} */
 
 .logo {
   height: 70px;
@@ -108,8 +108,7 @@ li {
   display: none;
 }
 
-@media(max-width: 900px) {
-  .hamburger {
+.hamburger {
     display: block;
     border: 0;
     background-color: transparent;
@@ -138,7 +137,7 @@ li {
   .logo {
     display: none;
   }
-}
+  
 
 /* ----- ABOUT ME ----- */
 
